@@ -39,6 +39,7 @@ Todos os experimentos e demonstrações estão descritos nos arquivos `.ipynb` l
 
 ## 🗂️ Estrutura do Repositório
 
+```text
 ├── Pipfile
 ├── Pipfile.lock
 ├── question1.ipynb
@@ -46,6 +47,7 @@ Todos os experimentos e demonstrações estão descritos nos arquivos `.ipynb` l
 ├── question3.ipynb
 ├── intro.ipynb # arquivo utilizado para aprender sobre a biblitoeca SymPy
 └── README.md
+```
 
 ---
 
