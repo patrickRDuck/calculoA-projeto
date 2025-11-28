@@ -45,6 +45,7 @@ Todos os experimentos e demonstrações estão descritos nos arquivos `.ipynb` l
 ├── question1.ipynb
 ├── question2.ipynb
 ├── question3.ipynb
+├── calculator.ipynb # arquivo que contém uma calculadora para cada um dos conceitos visto na matéria
 ├── intro.ipynb # arquivo utilizado para aprender sobre a biblitoeca SymPy
 └── README.md
 ```
