@@ -51,7 +51,7 @@ Todos os experimentos e demonstrações estão descritos nos arquivos `.ipynb` l
 
 ---
 
-## ⚙️ Configuração do Ambiente (Setup)
+## ⚙️ Configuração do Ambiente (Setup) - necessário Python já está instalado na máquina
 
 Este projeto utiliza **Pipenv** para criar e gerenciar o ambiente virtual Python.
 
@@ -79,3 +79,9 @@ pipenv install
 ```bash 
 pipenv shell
 ```
+
+### 5. Selecionar o Kernel do arquivo ipynb
+No canto superior direito do arquivo ipynb aberto, deve ter a opção "select kernel" ao clicar, escolha a opção do kernel criada no projeto quando executou o pipenv shell
+
+### 6. execução de células
+O arquivo ipynb é separado por células que são executadas de forma independente, uma célula posterior pode acessar resultado de células que vieram antes, por isso execute primeiro as células de importação no topo do arquivo ou executa "Run All" (na parte superior entre "markdown" e "restart").
